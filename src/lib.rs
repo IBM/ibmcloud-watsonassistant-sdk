@@ -22,7 +22,6 @@ impl AssistantClient {
         self.api_key = api_key.to_string();
     }
     pub fn set_version(&mut self, version: &str){ self.version = version.to_string();}
-
 }
 
 
@@ -50,4 +49,6 @@ mod tests {
         assert_eq!(client.version, version.to_string());
     }
 
+    #[test]
+    fn new_sessesion(){}
 }
