@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../ibmcloud-watsonassistant-sdk/.idea/ibm-watson-assistant-v2.iml" filepath="$PROJECT_DIR$/../ibmcloud-watsonassistant-sdk/.idea/ibm-watson-assistant-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ibmcloud-watsonassistant-sdk.iml" filepath="$PROJECT_DIR$/.idea/ibmcloud-watsonassistant-sdk.iml" />
     </modules>
   </component>
 </project>

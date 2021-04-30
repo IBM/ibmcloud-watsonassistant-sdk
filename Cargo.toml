@@ -1,5 +1,5 @@
 [package]
-name = "ibm-watson-assistant-v2"
+name = "ibmcloud-watsonassistant-sdk"
 version = "0.1.0"
 authors = ["rogerio.ferreira@ibm.com <Rogerio Ferreira>"]
 edition = "2018"
@@ -9,3 +9,7 @@ edition = "2018"
 [dependencies]
 reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
+anyhow = "1.0.40"
+ibmcloud-core = {path="/home/rogerio.ferreira/Documents/CLion-2020.2.3/ibmcloud-core"}
+serde = { version = "1.0", features = ["derive"] }
+
